@@ -1,0 +1,333 @@
+/* PORTFOLIO STYLE SHEET: SOL MCCANTS FOR CONTACTS PAGE*/
+
+/* BODY */
+
+body {
+  background-color: #fff;
+  background: url("../images/contact-background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*
+  width: 1440px;
+  height: 1024px; */
+
+ }
+
+
+
+/* HEADER */
+
+ .header {
+  font-family: "Hoefler Text", Arial, "Lucinda Grande"; 
+
+ }
+
+ .header img {
+  
+  position: absolute;
+  left: 20px;
+  top: 20px;
+
+ }
+
+ #titleHead {
+  text-align: center;
+  font-size: 11pt;
+  margin-left: 0px;
+  font-weight: normal;
+  color: #565656;
+ }
+
+ .navi {
+  font-family: "Hoefler Text", "Lucinda Grande", Arial;
+  font-size: 11pt;
+  
+  position: absolute;
+  right: 0px;
+  top: 18px;
+
+  
+
+ }
+
+ .navi ul {
+  float: right;
+  
+ }
+
+ .navi li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+  color: #76323F;
+  
+
+ }
+
+ /* LINK */
+
+ .navi a {
+  color: #76323F;
+
+ }
+
+.navi a:link {
+  text-decoration: none;
+  color: #76323F;
+  
+
+ }
+
+ /* HEADER END --> S PART START */
+
+.spart {
+  /*position: absolute;
+  float: none;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0px 0 -615px;
+  width: 1400px; */
+  clear: both;
+}
+
+.middlePart {
+  margin-top: 40px;
+  
+
+}
+
+
+.spart img {
+   display: block;
+   margin: auto;
+
+
+ }
+
+#bigS {
+  
+
+}
+
+ .introPar {
+
+  color: #565656;
+ }
+
+ .introPar a {
+  color: #2200CC;
+
+ }
+ .introPar a:link {
+
+ 
+  text-decoration: none;
+  color: #2200CC;
+ }
+
+/* LEFT ARROW */
+
+
+ .leftArrow {
+    /*float: left;
+    margin: 180px 450px 0px 30px; 
+    margin-bottom: 225px;
+    */
+    height: 375px;
+    position: relative;
+
+ }
+
+ .leftArrow img {
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto; 
+    position:relative;
+    top: 55%;
+    transform: translateY(-50%);
+ }
+
+ .leftArrow a {
+
+
+}
+
+.leftArrow a:hover {
+
+  opacity: .5;
+}
+
+ /* RIGHT ARROW */
+
+ .rightArrow {
+    /*float: right;
+    margin-bottom: 225px;
+    margin: 180px 0px 0px 450px;*/
+    height: 375px;
+    position: relative;
+    
+
+ }
+
+ .rightArrow img {
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position:relative;
+    top: 55%;
+    transform: translateY(-50%);
+ }
+
+
+.rightArrow a {
+
+
+}
+
+.rightArrow a:hover {
+
+  opacity: .5;
+}
+
+
+/* MIDDLE PART END --> START BOTTOM PART */
+
+ .imageDot {
+  
+  /*float: none;*/
+  
+  margin-top: 30px;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+
+
+ }
+
+
+
+ .social {
+  text-align: center;
+  height: 62px;
+  padding: 15px 0px 15px 0px;
+  margin: 40px 0px 40px 0px;
+  background-color: #ffffff;
+ }
+
+ .social ul {
+  padding-left: 0px;
+
+ }
+ 
+ .social li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-right: 20px;
+    
+
+ }
+
+ /* <-- START NEW CONTACT CSS --> */
+
+ .contactBox {
+    margin-top: 60px;
+    width: 989px;
+    height: 50px;
+    background-color: #ffffff;
+
+ }
+
+ .contactBox img {
+    padding: 5px 0px 0px 5px;
+    float: left;
+    margin-right: 10px;
+    clear:both;
+
+ }
+
+ .contactBox p {
+    font-family: "Lucinda Grande", Arial;
+    font-size: 11pt;
+    margin-left: 0px;
+    padding: 15px 15px 10px 15px;
+    overflow:auto;
+    display:block;
+    
+ }
+
+  .contactBox2 {
+    margin-top: 30px;
+    width: 989px;
+    height: 50px;
+    background-color: #ffffff;
+
+ }
+
+ .contactBox2 img {
+    padding: 10px 0px 0px 5px;
+    float: left;
+    margin-right: 10px;
+    clear:both;
+
+ }
+
+ .contactBox2 p {
+    font-family: "Lucinda Grande", Arial;
+    font-size: 11pt;
+    margin-left: 0px;
+    padding: 15px 15px 10px 15px;
+    overflow:auto;
+    display:block;
+    
+ }
+
+
+/* <-- START NEW ARROW CSS --> */
+
+ header table a[accesskey="p"] {
+    background-image: url("../images/left.png");
+    left: 0;
+    margin: 0;
+    padding: 0.5em;
+    top: 0;
+}
+header table a {
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: transparent;
+    display: block;
+    font-size: 12px;
+    height: 100%;
+    padding: 7px 15px;
+    position: fixed;
+    text-align: center;
+    text-decoration: none;
+    width: 60px;
+    z-index: 999;
+    vertical-align: middle;
+}
+
+header table a:hover {
+
+  opacity: .5;
+}
+
+header table a[accesskey="n"] {
+    background-image: url("../images/right.png");
+    margin: 0;
+    padding: 0.5em;
+    right: 0;
+    top: 0;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}

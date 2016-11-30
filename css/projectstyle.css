@@ -1,0 +1,366 @@
+/* PORTFOLIO STYLE SHEET: SOL MCCANTS FOR PROJECTS PAGE*/
+
+/* BODY */
+
+body {
+  background-color: #fff;
+  background: url("../images/project-background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*
+  width: 1440px;
+  height: 1024px; */
+
+ }
+
+
+
+/* HEADER */
+
+ .header {
+  font-family: "Hoefler Text", Arial, "Lucinda Grande"; 
+
+ }
+
+ .header img {
+  
+  position: absolute;
+  left: 20px;
+  top: 20px;
+
+ }
+
+ #titleHead {
+  text-align: center;
+  font-size: 11pt;
+  margin-left: 0px;
+  font-weight: normal;
+  color: #565656;
+ }
+
+ .navi {
+  font-family: "Hoefler Text", "Lucinda Grande", Arial;
+  font-size: 11pt;
+  
+  position: absolute;
+  right: 0px;
+  top: 18px;
+
+  
+
+ }
+
+ .navi ul {
+  float: right;
+  
+ }
+
+ .navi li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+  color: #76323F;
+  
+
+ }
+
+ /* LINK */
+
+ .navi a {
+  color: #76323F;
+
+ }
+
+.navi a:link {
+  text-decoration: none;
+  color: #76323F;
+  
+
+ }
+
+ /* HEADER END --> S PART START */
+
+.spart {
+  /*position: absolute;
+  float: none;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0px 0 -615px;
+  width: 1400px; */
+  clear: both;
+}
+
+.middlePart {
+  margin-top: 80px;
+  
+}
+
+
+
+
+ /* ----------  START IMAGE SLIDER CSS HERE --------------  */
+
+#contentContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 350px;
+    border: 5px black solid;
+    overflow: hidden;
+
+
+}
+
+#wrapper {
+    width: 3300px;
+    transform: translate3d(0, 0, 0);
+    width: 3300px;
+    transform: translate3d(0, 0, 0);
+    transition: transform .5s ease-in-out;
+}
+.content {
+    float: left;
+    width: 550px;
+    height: 350px;
+    white-space: normal;
+    background-repeat: no-repeat;
+}
+#itemOne {
+    background-color: #7ED321;
+    background-image: url("../images/code1.png");
+}
+#itemTwo {
+    background-color: #F8E71C;
+    background-image: url("../images/code2.png");
+}
+#itemThree {
+    background-color: #1E90FF;
+    background-image: url("../images/code3.png");
+}
+#itemFour {
+    background-color: #DC143C;
+    background-image: url("../images/code4.png");
+}
+#itemFive {
+    background-color: #000000;
+    background-image: url("../images/code5.png");
+}
+#itemSix {
+    background-color: #ffffff;
+    background-image: url("../images/code6.png");
+}
+
+
+#dotBox {
+
+  
+}
+
+#navLinks {
+    margin-top: 50px;
+    margin-left: 30%;
+
+    width: 550px;
+    height: 36px;
+    background-color: #ffffff;
+    text-align: center;
+    
+}
+#navLinks ul {
+
+  padding: 0px 0px 0px 0px;
+  display: inline-block;
+  
+  
+}
+#navLinks ul li {
+    float: left;
+    
+    margin: 10px;
+    list-style: none;
+    cursor: pointer;
+    background-color: #CCCCCC;
+    padding: 5px;
+    border-radius: 50%;
+    border: black 5px solid;
+}
+#navLinks ul li:hover {
+    background-color: #FFFF00;
+}
+#navLinks ul li.active {
+    background-color: #333333;
+    color: #FFFFFF;
+    outline-width: 7px;
+}
+#navLinks ul li.active:hover {
+    background-color: #484848;
+    color: #FFFFFF;
+}
+
+
+/* ----------  END IMAGE SLIDER CSS HERE --------------  */
+
+#bigS {
+  
+
+}
+
+/* LEFT ARROW */
+/*
+
+ .leftArrow {
+    /*float: left;
+    margin: 180px 450px 0px 30px; 
+    margin-bottom: 225px;
+    
+    height: 350px;
+    position: relative;
+
+ }
+
+ .leftArrow img {
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto; 
+    position:relative;
+    top: 55%;
+    transform: translateY(-50%);
+ }
+
+ .leftArrow a {
+
+
+}
+
+.leftArrow a:hover {
+
+  opacity: .5;
+}
+*/
+ /* RIGHT ARROW */
+/*
+ .rightArrow {
+    /*float: right;
+    margin-bottom: 225px;
+    margin: 180px 0px 0px 450px;
+    height: 350px;
+    position: relative;
+    
+
+ }
+
+ .rightArrow img {
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position:relative;
+    top: 55%;
+    transform: translateY(-50%);
+ }
+
+
+.rightArrow a {
+
+
+}
+
+.rightArrow a:hover {
+
+  opacity: .5;
+}
+*/
+
+/* MIDDLE PART END --> START BOTTOM PART */
+
+ .imageDot {
+  
+  /*float: none;*/
+  
+  margin-top: 30px;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+
+
+ }
+
+ #buttonTxt {
+  color: #ffffff;
+  font-family: "Lucinda Grande", Arial;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+
+ }
+
+ .social {
+  text-align: center;
+  padding-left: 0px;
+  margin-top: 50px;
+
+ }
+
+ .social ul {
+  padding-left: 0px;
+
+ }
+ 
+ .social li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-right: 20px;
+    
+
+ }
+
+ /* <-- START NEW ARROW CSS --> */
+
+ header table a[accesskey="p"] {
+    background-image: url("../images/left.png");
+    left: 0;
+    margin: 0;
+    padding: 0.5em;
+    top: 0;
+}
+header table a {
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: transparent;
+    display: block;
+    font-size: 12px;
+    height: 100%;
+    padding: 7px 15px;
+    position: fixed;
+    text-align: center;
+    text-decoration: none;
+    width: 60px;
+    z-index: 999;
+    vertical-align: middle;
+}
+
+header table a:hover {
+
+  opacity: .5;
+}
+
+header table a[accesskey="n"] {
+    background-image: url("../images/right.png");
+    margin: 0;
+    padding: 0.5em;
+    right: 0;
+    top: 0;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+/* <-- START NEW PROJECTS CSS --> */ 
